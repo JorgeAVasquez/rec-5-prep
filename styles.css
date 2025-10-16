@@ -15,6 +15,12 @@ h1 {
 TODO 3: Add an img selector to make all images a consistent 200x200 pixel size.
 The images should also have aesthetic rounded corners.
 */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
 
 
 .posts {
@@ -45,6 +51,11 @@ p {
 TODO 4: Change the color of Post button on hover as a visual cue to the user 
 Ensure that the text is still readable after the color has been changed.
 */
+.pretty-button:hover {
+    background-color: #333333; /* Dark gray for hover */
+    color: white; /* Keep text readable */
+}
+
 
 .navbar {
     display: flex;
