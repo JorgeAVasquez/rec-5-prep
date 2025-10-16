@@ -16,43 +16,48 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <div class="main-container" style="display:flex; justify-items: center;">
-        <!-- 
-        TODO 1: Change the flex direction of the container below
-        so that the post elements are under the title "Posts"
-        and the Post button is under the post elements. 
-        It should be a vertical feed of posts.
-        -->
-        <div style="display:flex; flex-direction: row;">
+    
+    <div class="main-container" style="display:flex; justify-content:center;">
+        <div style="display:flex; flex-direction: column; align-items: center;">
             <h1>Posts</h1>
-            <div class="posts">
+            
+            <div class="posts" style="display:flex; flex-direction: column; align-items: center; gap: 15px;">
                 <div>
-                    <img src="assets/images/apple.png">
+                    <img src="assets/images/apple.png" alt="apple image">
                     <p>This is an apple!</p>
                 </div>
                 <div>
-                    <img src="assets/images/apple.png">
+                    <img src="assets/images/apple.png" alt="apple image">
                     <p>This is an apple!</p>
                 </div>
                 <div>
-                    <img src="assets/images/apple.png">
+                    <img src="assets/images/apple.png" alt="apple image">
                     <p>This is an apple!</p>
                 </div>
                 <div>
-                    <img src="assets/images/apple.png">
+                    <img src="assets/images/apple.png" alt="apple image">
                     <p>This is an apple!</p>
                 </div>
                 <div>
-                    <img src="assets/images/apple.png">
+                    <img src="assets/images/apple.png" alt="apple image">
                     <p>This is an apple!</p>
                 </div>
-                <!-- 
-                TODO 2: Add 3 posts with your own images below.  
-                Be sure to add a relevant comment for each of your new posts.
-                -->
-                
+
+                <div>
+                    <img src="assets/images/banana.png" alt="banana image">
+                    <p>This is a banana!</p>
+                </div>
+                <div>
+                    <img src="assets/images/orange.png" alt="orange image">
+                    <p>This is an orange!</p>
+                </div>
+                <div>
+                    <img src="assets/images/strawberry.png" alt="strawberry image">
+                    <p>These are strawberries!</p>
+                </div>
             </div>
-            <button class="pretty-button">Post</button>
+
+            <button class="pretty-button" style="margin-top:20px;">Post</button>
         </div>
     </div>
 </body>
