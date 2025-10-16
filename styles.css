@@ -52,7 +52,7 @@ TODO 4: Change the color of Post button on hover as a visual cue to the user
 Ensure that the text is still readable after the color has been changed.
 */
 .pretty-button:hover {
-    background-color: #333333; /* Dark gray for hover */
+    background-color: #6EC3CC; /* Light Blue for hover */
     color: white; /* Keep text readable */
 }
 
